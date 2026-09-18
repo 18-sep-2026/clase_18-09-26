@@ -2,19 +2,22 @@ package mx.edu.utng.edatos;
 public class RepasoArreglos {
 
     public static void main(String[] args) {
+	String[]\ nombres[] = new String[7][3];
 
-        System.out.println("Manejo de arreglos");
+	nombres[0][0] = "Jonathan Venancio";
+	nombres[0][1] = "Aguilar Hernandez";
+	nombres[0][2] = "18";
 
-        String[] nombres = new String[10];
-                int edades[] = {20, 21, 22, 23};
+	nombres[1][0] = "JOSE EMMANUEL";
+	nombres[1][1] = "ARREDONDO ESCALANTE";
+	nombres[1][2] = "22";
 
-                System.out.println("Tamaño " + nombres.length);
-                System.out.println("Edades " + edades.length);
+	nombres[2][0] = "YANELI";
+	nombres[2][1] = "SANCHEZ CARDENAS";
+	nombres[2][2] = "19";
 
-
-                //Indices
-                nombres[0] = "Juan Alberto";
-                //nombres[11] = "Juan Felipe"
+	System.out.println(nombres.length);
+	
 
 
     }
